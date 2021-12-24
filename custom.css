@@ -504,8 +504,10 @@ header .navbar ul li a:hover {
 
 #particles-js{
     position: absolute;
-    top: 5rem;
-    width: 100%;
+    top: 8rem;
+    left: 10%;
+
+    width: 90%;
 
 
 }
