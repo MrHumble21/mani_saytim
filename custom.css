@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Nunito:wght@200&family=Poppins:wght@300&family=Raleway:wght@200&display=swap');
+
+
 :root {
     --yellow: #ffcc00;
 }
@@ -8,7 +11,7 @@
     box-sizing: border-box;
     margin: 0 !important;
     padding: 0 !important;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     text-decoration: none !important;
     outline: none;
     border: none;
