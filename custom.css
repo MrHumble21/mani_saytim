@@ -119,12 +119,12 @@ header .navbar ul li a:hover {
 
 #menu {
     position: fixed !important;
-    top: 2rem !important;
-    right: 2rem !important;
+    top: 3rem !important;
+    right: 3rem !important;
     background-color: #333 !important;
     color: #fff !important;
     cursor: pointer !important;
-    font-size: 2.5rem !important;
+    font-size: 3.5rem !important;
     z-index: 1000 !important;
     display: none;
 }
@@ -199,7 +199,7 @@ header .navbar ul li a:hover {
         margin:3rem 0;
     }
     #menu{
-        font-size: 2rem !important;
+        font-size: 5rem !important;
     }
 }
 
