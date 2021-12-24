@@ -191,6 +191,10 @@ header .navbar ul li a:hover {
         width: 100% !important;
     }
 
+    .contact .row .form{
+        margin:3rem 0;
+    }
+
 }
 
 
@@ -486,4 +490,12 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i{
     padding-right: 1rem !important;
     color: var(--yellow) !important;
+}
+
+
+.top{
+    position: fixed;
+    bottom: 7.5rem;
+    right: 2.5rem;
+    z-index:100;
 }
