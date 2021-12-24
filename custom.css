@@ -201,6 +201,7 @@ header .navbar ul li a:hover {
     }
     #menu{
         font-size: 4rem !important;
+        z-index:100000;
     }
 }
 
