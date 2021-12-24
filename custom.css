@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Nunito:wght@200&family=Poppins:wght@300&family=Raleway:wght@200&display=swap');
 
 
@@ -125,7 +124,8 @@ header .navbar ul li a:hover {
     color: #fff !important;
     cursor: pointer !important;
     font-size: 3.5rem !important;
-    z-index: 1000 !important;
+    z-index: 100000;
+
     display: none;
 }
 
@@ -156,7 +156,7 @@ header .navbar ul li a:hover {
 
     header.toggle {
         left: 0;
-        z-index:10000;
+        z-index: 10000;
 
     }
 
@@ -196,12 +196,13 @@ header .navbar ul li a:hover {
         height: 100% !important;
     }
 
-    .contact .row .form{
-        margin:3rem 0;
+    .contact .row .form {
+        margin: 3rem 0;
     }
-    #menu{
+
+    #menu {
         font-size: 4rem !important;
-        z-index:100000;
+        z-index: 100000;
     }
 }
 
@@ -424,15 +425,15 @@ header .navbar ul li a:hover {
     flex-wrap: wrap !important;
 }
 
-.contact .row .content{
+.contact .row .content {
     flex: 1 1 30rem;
     padding: 4rem !important;
-    padding-bottom: 0!important;
+    padding-bottom: 0 !important;
 }
 
-.content .row form{
+.content .row form {
     flex: 1 1 25rem !important;
-    padding:2rem !important;
+    padding: 2rem !important;
     margin: 2rem !important;
     margin-bottom: 0 !important;
 
@@ -441,31 +442,32 @@ header .navbar ul li a:hover {
 
 .contact .row .form .box {
     padding: 1.5rem !important;
-    margin:1rem 0 !important;
-    background:#3333;
+    margin: 1rem 0 !important;
+    background: #3333;
     color: #fff !important;
     text-transform: none;
     font-size: 1.7rem !important;
     width: 100% !important
 }
 
-.contact .row .form .box::placeholder{
+.contact .row .form .box::placeholder {
     text-transform: capitalize;
 
 }
+
 .contact .row .form .box .message {
-   height: 15rem !important;
-    resize:vertical;
+    height: 15rem !important;
+    resize: vertical;
 }
 
-.content{
+.content {
     display: flex !important;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-.btn{
+.btn {
     padding: 0.7rem 1.8rem !important;
     background-color: #333;
     color: #fff;
@@ -477,37 +479,37 @@ header .navbar ul li a:hover {
 }
 
 
-.contact .row .content .title{
+.contact .row .content .title {
     text-transform: uppercase;
     color: #fff;
     font-size: 3rem;
     padding-bottom: 2rem !important;
 }
 
-.contact .row .content .info h3{
-   display:flex;
+.contact .row .content .info h3 {
+    display: flex;
     align-items: center;
     font-size: 2rem !important;
     color: #eee;
     padding: 1rem 0 !important;
-    letter-spacing:0.1rem;
+    letter-spacing: 0.1rem;
     font-weight: normal;
 }
 
-.contact .row .content .info h3 i{
+.contact .row .content .info h3 i {
     padding-right: 1rem !important;
     color: var(--yellow) !important;
 }
 
 
-.top{
+.top {
     position: fixed;
     bottom: 7.5rem;
     right: 2.5rem;
-    z-index:100;
+    z-index: 100;
 }
 
-#particles-js{
+#particles-js {
     position: absolute;
     top: 8rem;
     left: 10%;
