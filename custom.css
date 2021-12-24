@@ -175,6 +175,14 @@ header .navbar ul li a:hover{
         width: 100vw;
     }
 
+    .heading{
+        margin: 0 3rem !important;
+    }
+
+    .about .row .counter .box{
+        width: 100% !important;
+    }
+
 
 }
 
@@ -256,8 +264,8 @@ header .navbar ul li a:hover{
 
 .about .row .info{
    flex: 1 1 48rem;
-    padding:2rem 1rem;
-    padding-left:6rem;
+    padding:2rem 1rem !important;
+    padding-left:6rem !important;
 
 }
 .about .row .counter{
@@ -267,4 +275,37 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-wrap: wrap;
 
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color: var(--yellow);
+    padding:1rem 0 !important;
+    font-weight:normal;
+}
+
+.about .row .info span {
+    font-size: 2rem;
+    color: #eee;
+    padding: 0 0.5rem !important;
+    font-weight:normal;
+}
+
+.about .row .counter .box{
+width: 20rem !important;
+    background-color:#222;
+    text-align: center;
+    padding: 2rem !important;
+    margin: 2rem !important;
+
+}
+
+.about .row .counter .box span {
+    font-size: 4rem;
+    color: var(--yellow);
+}
+
+.about .row .counter .box h3 {
+    font-size: 2rem;
+    color: #fff;
 }
