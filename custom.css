@@ -183,10 +183,13 @@ header .navbar ul li a:hover {
         width: 100% !important;
     }
 
-    .education .box-container .box{
+    .education .box-container .box {
         width: 100% !important;
     }
 
+    .portfolio .box-container .box {
+        width: 100% !important;
+    }
 
 }
 
@@ -328,7 +331,7 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-    width: 27rem ;
+    width: 27rem;
     margin: 4rem 1rem !important;
     padding-left: 4rem !important;
     border-left: .2rem solid #fff;
@@ -359,10 +362,77 @@ header .navbar ul li a:hover {
     font-size: 2rem;
     color: #fff;
     position: absolute;
-    top: -1.5rem; left: -2.6rem;
-    height: 5rem; width: 5rem;
+    top: -1.5rem;
+    left: -2.6rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     line-height: 5rem;
     text-align: center;
     background-color: var(--yellow);
+}
+
+
+.portfolio .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0 !important;
+}
+
+.portfolio .box-container .box {
+
+    margin: 2rem !important;
+    border-radius: 1.5rem;
+    height: 20rem;
+    width: 26rem;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+
+.portfolio .box-container .box img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img {
+
+    transform: scale(1.2);
+}
+
+
+.contact .row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+}
+
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem !important;
+    padding-bottom: 0!important;
+}
+
+.content .row form{
+    flex: 1 1 25rem !important;
+    padding:2rem !important;
+    margin: 2rem !important;
+    margin-bottom: 0 !important;
+
+
+}
+
+.contact .row .form .box {
+    padding: 1.5rem !important;
+    margin:1rem 0 !important;
+    background:#3333;
+    color: #fff !important;
+    text-transform: none;
+    font-size: 1.7rem !important;
 }
