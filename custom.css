@@ -435,4 +435,55 @@ header .navbar ul li a:hover {
     color: #fff !important;
     text-transform: none;
     font-size: 1.7rem !important;
+    width: 100% !important
+}
+
+.contact .row .form .box::placeholder{
+    text-transform: capitalize;
+
+}
+.contact .row .form .box .message {
+   height: 15rem !important;
+    resize:vertical;
+}
+
+.content{
+    display: flex !important;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+
+.btn{
+    padding: 0.7rem 1.8rem !important;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem !important;
+    font-size: 2rem;
+    border-radius: 5rem;
+
+}
+
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem !important;
+}
+
+.contact .row .content .info h3{
+   display:flex;
+    align-items: center;
+    font-size: 2rem !important;
+    color: #eee;
+    padding: 1rem 0 !important;
+    letter-spacing:0.1rem;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem !important;
+    color: var(--yellow) !important;
 }
