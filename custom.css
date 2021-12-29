@@ -181,6 +181,9 @@ header .navbar ul li a:hover {
     #education > div > div > p{
         font-size: 2.5rem;
     }
+    #contact > div > div > div > h3{
+        font-size: 2.5rem;
+    }
     .heading {
         margin: 0 .3rem !important;
     }
