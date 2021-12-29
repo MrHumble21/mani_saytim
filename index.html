@@ -354,12 +354,12 @@
           </div>
 
           <form class="form" action="https://formsubmit.co/malikovabdulboriy010@gmail.com" method="POST">
-            <input type="text" placeholder="name" name="name" class="box" /><br />
-            <input type="hidden" placeholder="name" name="_subject" class="box" /><br />
-            <input type="text" placeholder="email" name="email" class="box" /><br />
+            <input type="text" placeholder="name" name="name" class="box" required /><br />
+            <input type="hidden" placeholder="name" name="_subject" value="New Email from your website!" class="box" /><br />
+            <input type="hidden" name="_captcha" value="false">
+            <input type="email" placeholder="email" name="email" class="box" required /><br />
             <input type="hidden" placeholder="name" name="_next" class="box" value="https://malikov.netlify.app/cv.html" /><br />
-
-            <input type="text" placeholder="project" name="project" class="box" /><br />
+            <input type="text" placeholder="project" name="project" class="box" required /><br />
             <textarea
               name="message"
               id=""
@@ -367,6 +367,7 @@
               rows="10"
               placeholder="message"
               class="box message"
+              required
             ></textarea>
             <button type="submit" class="btn">
               send <i class="fas fa-paper-plane"></i>
