@@ -193,6 +193,10 @@ header .navbar ul li a:hover {
         margin: 0 .3rem !important;
     }
 
+    #home > p{
+        font-size:2.5rem !important;
+
+    }
     .about .row .counter .box {
         width: 100% !important;
 
