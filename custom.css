@@ -178,6 +178,9 @@ header .navbar ul li a:hover {
         width: 100vw;
     }
 
+    #education > div > div > p{
+        font-size: 2.5rem;
+    }
     .heading {
         margin: 0 .3rem !important;
     }
