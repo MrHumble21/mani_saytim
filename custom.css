@@ -245,6 +245,11 @@ header .navbar ul li a:hover {
 
 }
 
+#education > div > div > h3{
+    color: var(--yellow);
+    font-size: 2.6rem !important;
+}
+
 .home p {
     color: #fff;
     font-size: 2rem;
