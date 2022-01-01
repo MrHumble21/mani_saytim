@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Nunito:wght@200&family=Poppins:wght@300&family=Raleway:wght@200&display=swap");
 
 :root {
-  --yellow: #ffcc00;
-  --background-body:#111;
-  --backgroudn-header:#1a1a1a;
-  --bg-nav:#333;
-  --header-border:#fff4;
-  --bg-box:#222;
-  --text-color: #ffff;
-}
+    --yellow: #ffcc00;
+    --background-body:#111;
+    --backgroudn-header:#1a1a1a;
+    --bg-nav:#333;
+    --header-border:#fff4;
+    --bg-box:#222;
+    --text-color: #ffff;
+  }
 
 * {
   box-sizing: border-box;
@@ -532,4 +532,9 @@ header .navbar ul li a:hover {
   left: 10%;
 
   width: 90%;
+}
+
+
+body > header > div > p{
+    color: var(--yellow) !important;
 }
