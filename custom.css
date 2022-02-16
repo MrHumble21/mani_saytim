@@ -538,26 +538,3 @@ header .navbar ul li a:hover {
 body > header > div > p{
     color: var(--yellow) !important;
 }
-
-
-
-
-
-#home > h1 > span{
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-body > header > div > p{
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60036, 0 0 40px #e6002a, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #19D1FF, 0 0 40px #01CEFF, 0 0 50px #ff4da6, 0 0 60px #008FB3, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
-}
